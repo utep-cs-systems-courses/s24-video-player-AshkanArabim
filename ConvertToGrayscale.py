@@ -15,6 +15,7 @@ inFileName = f'{outputDir}/frame_{count:04d}.bmp'
 # load the next file
 inputFrame = cv2.imread(inFileName, cv2.IMREAD_COLOR)
 
+# ques: 
 while inputFrame is not None and count < 72:
     print(f'Converting frame {count}')
 
